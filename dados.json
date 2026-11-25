@@ -190,7 +190,7 @@
         {
           "titulo": "Indicador de direção",
           "descricao": "Círculo com seta indicando a posição/direção do Player.",
-          "status": "pendente"
+          "status": "concluido"
         },
         {
           "titulo": "Sprites e artes finais",

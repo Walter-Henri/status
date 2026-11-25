@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "titulo": "Atualização de Progresso",
+    "subtitulo": "Projeto de Jogo",
+    "versao": "1.3.1",
+    "data_atualizacao": "2026-11-26",
+    "icone": "📊"
+  },
+  "categorias": [
+    {
+      "id": "documentacao",
+      "nome": "Documentação e Testes",
+      "icone": "📚",
+      "cor": "#6366f1",
+      "itens": [
+        {
+          "titulo": "CHANGELOG.md",
+          "descricao": "309 linhas com histórico das versões 1.0.0 a 1.3.1, resumo, bugs conhecidos e versionamento semântico.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "ARCHITECTURE.md",
+          "descricao": "Reescrito com 374 linhas, 20 módulos, FSM dos bots, pipeline de power-ups, fallback de sprites e histórico de bugfixes.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "README.md",
+          "descricao": "Atualizado com badge v1.3.1, link para CHANGELOG.md e contagem real de testes (53 testes).",
+          "status": "concluido"
+        },
+        {
+          "titulo": "DOCUMENTACAO.md",
+          "descricao": "Corrigido com marca TerritórIO, territorio_save.json e nota da v1.3.1.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Suite de testes automatizados",
+          "descricao": "35 testes automatizados com 0 falhas.",
+          "status": "concluido"
+        }
+      ]
+    },
+    {
+      "id": "gameplay",
+      "nome": "Gameplay, Bots e Mapas",
+      "icone": "🎮",
+      "cor": "#10b981",
+      "itens": [
+        {
+          "titulo": "10 skins selecionáveis",
+          "descricao": "Skins com cores únicas para personalização.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "8 bots adversários",
+          "descricao": "IA de 6 estados com coleta estratégica de power-ups.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "3 perfis de dificuldade",
+          "descricao": "Fácil, Médio e Difícil misturados por partida.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Evolução da inteligência dos bots",
+          "descricao": "Dificuldade progressiva que deixa os bots mais espertos a cada nova fase/nível alcançado.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "5 power-ups coletáveis",
+          "descricao": "Power-ups com ícones PNG próprios.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "27 mapas dos estados brasileiros",
+          "descricao": "Polígonos geográficos reais dos estados.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Progressão por nível",
+          "descricao": "1 estado por nível, em sequência.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Modo Predador",
+          "descricao": "Radar tático e painel de estatísticas.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Preenchimento de território",
+          "descricao": "Correção das falhas no preenchimento da área de território conquistada.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Eliminação por rastro próprio",
+          "descricao": "Correção da eliminação incorreta dos bots ao cruzarem o próprio rastro.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Câmera Visão de Águia",
+          "descricao": "Não acompanha o Player e não exibe os rastros do Player e dos Bots enquanto o efeito está ativo.",
+          "status": "em_andamento"
+        },
+        {
+          "titulo": "Geração do mapa",
+          "descricao": "Mapas carregados não estão assumindo o formato dos estados do Brasil como esperado.",
+          "status": "em_andamento"
+        },
+        {
+          "titulo": "Sequência de fases",
+          "descricao": "Ordem lógica da contagem e sequência das novas fases (1, 2, 3, 4...).",
+          "status": "pendente"
+        },
+        {
+          "titulo": "Feedback visual das fases",
+          "descricao": "Exibição sequencial (Fase 1: {Estado}, Fase 2: {Estado}...) com transição e troca do formato do mapa.",
+          "status": "pendente"
+        },
+        {
+          "titulo": "Ressurreição e vitória",
+          "descricao": "Player e bots continuam renascendo até que alguém alcance 100% do mapa e vença a partida.",
+          "status": "pendente"
+        }
+      ]
+    },
+    {
+      "id": "sistema",
+      "nome": "Sistema, Câmera e Infraestrutura",
+      "icone": "⚙️",
+      "cor": "#f59e0b",
+      "itens": [
+        {
+          "titulo": "Câmera suave",
+          "descricao": "Interpolação e zoom Eagle Eye.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Sistema de partículas",
+          "descricao": "Efeitos visuais para ações do jogo.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Arquitetura modular",
+          "descricao": "Responsabilidades separadas entre módulos.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Sistema de sprites",
+          "descricao": "Via assets/data/sprites.json com cache e fallback seguro.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Travamento de 60 FPS",
+          "descricao": "Utilizando tick_busy_loop.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Fechamento correto",
+          "descricao": "Pelo X da janela (pygame.QUIT → sys.exit).",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Logging configurável",
+          "descricao": "Via --debug utilizando o módulo logging.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Salvamento automático",
+          "descricao": "Progresso salvo em JSON.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Script iniciar.sh",
+          "descricao": "Instalação e inicialização para Ubuntu.",
+          "status": "concluido"
+        }
+      ]
+    },
+    {
+      "id": "uiux",
+      "nome": "UI / UX e Identidade",
+      "icone": "🎨",
+      "cor": "#ec4899",
+      "itens": [
+        {
+          "titulo": "Nicknames flutuantes",
+          "descricao": "Sobre o Player e os bots.",
+          "status": "concluido"
+        },
+        {
+          "titulo": "Indicador de direção",
+          "descricao": "Círculo com seta indicando a posição/direção do Player.",
+          "status": "pendente"
+        },
+        {
+          "titulo": "Sprites e artes finais",
+          "descricao": "Implementação de todos os sprites e artes finais.",
+          "status": "pendente"
+        },
+        {
+          "titulo": "Renomeação do jogo",
+          "descricao": "Alteração do nome do jogo para PaperWorlds.",
+          "status": "pendente"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "paperworlds-progresso",
+  "version": "1.3.1",
+  "description": "Dashboard de progresso do projeto PaperWorlds",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Abra index.html no navegador'",
+    "build": "echo 'Build completo - arquivos estáticos'",
+    "start": "echo 'Servidor estático ativo'"
+  },
+  "keywords": [
+    "game",
+    "dashboard",
+    "progress",
+    "paperworlds"
+  ],
+  "author": "PaperWorlds Team",
+  "license": "MIT"
+}

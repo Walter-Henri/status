@@ -109,7 +109,7 @@
         {
           "titulo": "Sequência de fases",
           "descricao": "Ordem lógica da contagem e sequência das novas fases (1, 2, 3, 4...).",
-          "status": "pendente"
+          "status": "concluido"
         },
         {
           "titulo": "Feedback visual das fases",

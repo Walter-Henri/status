@@ -1,9 +1,9 @@
 {
   "metadata": {
     "titulo": "Atualização de Progresso",
-    "subtitulo": "Projeto de Jogo",
+    "subtitulo": "Projeto PaperWorlds",
     "versao": "1.3.1",
-    "data_atualizacao": "2026-11-25",
+    "data_atualizacao": "2026-11-26",
     "icone": "📊"
   },
   "categorias": [
@@ -120,6 +120,16 @@
           "titulo": "Ressurreição e vitória",
           "descricao": "Player e bots continuam renascendo até que alguém alcance 100% do mapa e vença a partida.",
           "status": "concluido"
+        },
+        {
+          "titulo": "Conquista de território de jogadores eliminados",
+          "descricao": "Implementar a mecânica de roubo e transferência do território de adversários eliminados para o Player ou Bot responsável pela eliminação, atualizando a propriedade real das áreas, pontuação e representação visual do mapa.",
+          "status": "em_andamento"
+        },
+        {
+          "titulo": "Deslizamento inteligente nas barreiras do mapa",
+          "descricao": "Implementar movimentação adaptativa para Players e Bots nas barreiras externas dos mapas estaduais. Os personagens deverão deslizar suavemente acompanhando o contorno geométrico real, preservando a aceleração e a velocidade tangencial, sem ficarem presos, travados ou atravessarem os limites.",
+          "status": "em_andamento"
         }
       ]
     },
@@ -153,6 +163,11 @@
           "titulo": "Travamento de 60 FPS",
           "descricao": "Utilizando tick_busy_loop.",
           "status": "concluido"
+        },
+        {
+          "titulo": "Estabilização da movimentação e física em 60 FPS",
+          "descricao": "Revisar e garantir que movimentação, aceleração, colisões e animações utilizem delta time, mantendo comportamento consistente independentemente da taxa de atualização. Preservar o limite máximo de 60 FPS já implementado.",
+          "status": "em_andamento"
         },
         {
           "titulo": "Fechamento correto",
@@ -193,14 +208,19 @@
           "status": "concluido"
         },
         {
+          "titulo": "Indicador animado de identificação do Player",
+          "descricao": "Adicionar círculo pulsante ou piscante com seta apontando para o personagem efetivamente controlado. Ativar automaticamente no início da partida e após cada ressurreição, acompanhando o personagem por no máximo 2 segundos. Não exibir para os Bots.",
+          "status": "em_andamento"
+        },
+        {
           "titulo": "Sprites e artes finais",
           "descricao": "Implementação de todos os sprites e artes finais.",
           "status": "pendente"
         },
         {
           "titulo": "Renomeação do jogo",
-          "descricao": "Alteração do nome do jogo para PaperWorlds.",
-          "status": "pendente"
+          "descricao": "Alteração da identidade e do nome do jogo de PAPER.IO para PaperWorlds, incluindo tela inicial, menus, carregamento, identificação da janela e metadados pertinentes.",
+          "status": "em_andamento"
         }
       ]
     }

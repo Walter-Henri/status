@@ -47,6 +47,16 @@
       "cor": "#10b981",
       "itens": [
         {
+          "titulo": "OTIMIZAR REGRAS DE RENASCIMENTO",
+          "descricao": "Aproveita a regra que limita o renascimento, em areas não conquistadas, dos BOTs/PLAYER, para acionar o gatilho de GAME-OVER, ",
+          "status": "em_andamento"
+        },        
+        {
+          "titulo": "Otimização de Desempenho",
+          "descricao": "Aprimorar o gerenciamento de memoria, aplicar o uso de Mult-Threads ",
+          "status": "em_andamento"
+        },
+        {
           "titulo": "10 skins selecionáveis",
           "descricao": "Skins com cores únicas para personalização.",
           "status": "concluido"
@@ -114,7 +124,7 @@
         {
           "titulo": "Feedback visual das fases",
           "descricao": "Exibição sequencial (Fase 1: {Estado}, Fase 2: {Estado}...) com transição e troca do formato do mapa.",
-          "status": "pendente"
+          "status": "concluido"
         },
         {
           "titulo": "Ressurreição e vitória",
